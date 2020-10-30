@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking The Flight</title>
+    <link rel="stylesheet" href="../booking/ticket.css">
+    <link rel="stylesheet" href="https //maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https //maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></script>
+</head>
+<body>
+   <div class = "container">
+    <header class="Header">
+		<div class="Header__body">
+			<a href="/"><button color="primary" variant="contained">Home</button></a>
+			<a href="/map"><button color="primary" variant="contained">Map</button></a>
+			<a href="/calculator"><button color="primary" variant="contained">Calculator</button></a>
+			<a href="/booking"><button color="primary" variant="contained">To book</button></a>
+            <a href="/auth"><button color="primary" variant="contained">Sing in</button></a>
+            <a href="/airlist"><Button color="primary" variant="contained">Airlist</Button></a>
+		</div>
+	</header>
+       <form class="form-group" action="http://localhost:3002/mini-earth/payment">
+         <h1>Airline Ticket Form</h1>
+         <div id = "form">
+             <h3 class="text-black">Booking Details</h3>
+            <div id = "input">
+            <input type="text" id="input-group" placeholder="From">
+            <input type="text" id="input-group" placeholder="To">
+            <input type="text" id="input-group" placeholder="Departure Date">
+            <input type="text" id="input-group" placeholder="Departure Time">
+            <select id = "input-group" >
+            <option value="">Preferred Airline</option>
+            <option value="">Darina Airways</option>
+            <option value="">Eithad Airways</option>
+            <option value="">Qatar Airways</option>
+            <option value="">Lufthansa Airlines</option>
+            <option value="">Turkish Airlines</option>
+            <option value="">Swiss Airlines</option>
+            <option value="">KLM Airlines</option>
+            <option value="">Air France</option>
+            <option value="">British Airways</option>
+            <option value="">Aeroflot</option>
+            <option value="">Air Canada</option>
+            <option value="">Azerbaijan Air</option>
+            <option value="">Air Astana</option>
+            <option value="">Ryanair</option>
+            <option value="">LOT Polish</option>
+            <option value="">TAP Portugal</option>
+            <option value="">Royal Joardian Airlines</option>
+            <option value="">Air Manas</option>
+            <option value="">Air New Zealand Airlines</option>
+            <option value="">American Airlines</option>
+            <option value="">All Nippon Airways</option>
+            <option value="">Virgin Australia</option>
+            <option value=""> EVA Air</option>
+            <option value=""> Delta Air Lines</option>
+            <option value="">Belavia Airlines/option>
+            <option value="">Delta Airlines</option>
+            <option value="">Uzbekistan Airlines</option>
+            <option value="">Virgin Australia Airlines</option>
+            <option value="">Aegean Airlines</option>
+        </select>
+         <select id="input-group" >
+            <option value="">Preferred Seating</option>
+            <option value="">Economy Class</option>
+            <option value="">Business Class</option>
+            <option value="">First Class</option>
+         </select>
+         </div>
+         <div id="input2">
+             <input type="number" id="input-group" placeholder="Adult">
+             <input type="number" id="input-group" placeholder="Children(2-11years)">
+             <input type="number" id="input-group" placeholder="Infant(under 2 years)">
+         </div>
+         <div id="input3">
+         <span  id = "input-group"class="text-primary">Select your Fare</span>
+         <input type = "radio" id="input-group" name = "r"> 
+         <label class = "text-black"for="input-group">One Way</label>
+         <input type = "radio" id="input-group" name = "r"> 
+         <label class = "text-black" for="input-group"> Round Way</label>
+         </div>
+
+         <div id="input4">
+             <input type="text" id="input-group" placeholder="Return Date">
+             <input type="text" id="input-group" placeholder="Return Time">
+             <input type="text" id="input-group1" placeholder="Any Message">
+         </div>
+         
+        <div id="input5">
+            <h3 class="text-black">Personal Details</h3>
+        </div>
+
+         <div id="input6">
+            <input type="text" id="input-group" placeholder="Full Name">
+            <input type="number" id="input-group" placeholder="Phone Number">
+            <input type="email" id="input-group1" placeholder="Email">
+         </div>
+         <button type="submit" class="btn btn-warning text-black">Submit Form</button>
+         <button type="reset" class="btn btn-primary">Clear Form</button>
+        </div>
+     </form>
+   </div>
+   
+   
+</body>  
+</html>

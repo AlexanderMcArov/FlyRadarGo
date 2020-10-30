@@ -1,0 +1,31 @@
+@import "./variables.scss";
+@import "./reset.scss";
+@import "./components/PlaneInfoPanel.scss";
+@import "./components/Separator.scss";
+
+.Header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: 0;
+    z-index: 6000;
+}
+.Header__body{
+    width: min-content;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgba($color: #ffffff, $alpha: .7);
+    padding: 10px;
+}
+.Header__body button{
+    margin: 0px 10px;
+}
+.Header__body a{
+    text-decoration: none;
+}
+.info-panel{
+    color: black;
+}

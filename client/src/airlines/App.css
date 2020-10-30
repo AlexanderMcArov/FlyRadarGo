@@ -1,0 +1,11 @@
+.arlineList{
+    background: url('https://staticshare.america.gov/uploads/2019/12/iss042e215971.jpg');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.arlistne{
+    padding: 60px;
+    background: rgba(0, 0, 0, .6);
+}
